@@ -34,3 +34,8 @@ Developers meet our Market Data API for crypto trading.
 ### Price
 - Free of charge
 
+### API How-to-begin
+- Login into 3Commas at https://app.3commas.io/en/auth/login
+- Get token at https://app.3commas.io/wapi/platform_api_tokens
+- Check API Documentation at https://platform.3commas.io/doc/v1/redoc
+- Run `curl -H 'X-API-KEY:YourAPIToken' 'https://platform.3commas.io/klines/v1/binance_spot?pair=USDT_BTC&interval=1m'`
